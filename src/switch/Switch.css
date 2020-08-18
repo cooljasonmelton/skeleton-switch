@@ -1,0 +1,20 @@
+.Switch{
+    padding-left: 2em;
+    width: 200px;
+    height: 200px;
+
+}
+.switch-track{
+    width: 100%;
+    height: 2em;
+    border-radius: 1em;
+    background-color: black;
+
+}
+
+.switch-circle{
+    height: 3em;
+    width: 3em;
+
+    background-image: url('./skull-emoji.png');
+}

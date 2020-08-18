@@ -8,7 +8,7 @@ import Switch from './switch/Switch';
 
 const App = () => {
   return (
-    <div className="App cfb">
+    <div className="App">
       <Switch/>
 
     </div>
