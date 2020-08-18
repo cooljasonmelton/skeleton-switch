@@ -16,5 +16,5 @@
     height: 3em;
     width: 3em;
 
-    background-image: url('./skull-emoji.png');
+    background-image: url("skull-emoji.png");
 }
