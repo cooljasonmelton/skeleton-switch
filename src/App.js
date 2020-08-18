@@ -1,9 +1,15 @@
 import React from 'react';
+
+// styling
 import './App.css';
 
-function App() {
+// components
+import Switch from './switch/Switch';
+
+const App = () => {
   return (
-    <div className="App">
+    <div className="App cfb">
+      <Switch/>
 
     </div>
   );
