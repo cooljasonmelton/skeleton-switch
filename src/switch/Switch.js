@@ -4,8 +4,8 @@ import skull from './skull-emoji.png'
 // styling
 import './Switch.css';
 
-const Switch = () => {
-    const [switchOn, setSwitchOn] = useState(false)
+const Switch = props => {
+    const {switchOn, setSwitchOn} = props
 
     const setCircleClass = () => {
         const classArr = ["switch-circle"]

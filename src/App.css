@@ -9,3 +9,30 @@
   justify-content: center;
   align-items: center;
 }
+
+.SampleComp{
+  margin: 2em;
+  position: relative;
+  height: 595px;
+  width: 548px;
+  background-color: purple;
+}
+
+.text{
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  color: orange;
+}
+
+.skeletonCap{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  opacity: 0;
+  transition: 1s;
+}
+
+.skel-on{
+  opacity: 1;
+}
